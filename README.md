@@ -33,10 +33,21 @@
 配置完成 [LangBot](https://github.com/RockChinQ/LangBot) 主程序后使用管理员账号向机器人发送命令即可安装：
 
 ```
-!plugin get <你的插件发布仓库地址>
+!plugin get (https://github.com/Hanschase/StarMePlugin)
 ```
 或查看详细的[插件安装说明](https://docs.langbot.app/plugin/plugin-intro.html#%E6%8F%92%E4%BB%B6%E7%94%A8%E6%B3%95)
 
 ## 使用
+注：目前仅限在群里使用！
+1.通过!starme注册点赞
+2.通过!letstar开始点赞任务（每次重启bot都需要的指令）
+3.通过!cancelstar取消注册
+
+目前是固定的每天上午十点进行点赞，如果有人又需要可以催我更下指令更改时间=- =，并且只能运用于aiocqhttp的消息平台
+Q:为什么要通过指令启动点赞任务？
+A:问就是项目不支持初始化主动发送消息，等更新了新事件进行修改
+
+Q:为什么不能通过私聊注册？
+A:太懒了，有人需要的话我再做吧，或者来个大佬直接pr也行啊
 
 <!-- 插件开发者自行填写插件使用说明 -->
